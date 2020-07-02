@@ -38,7 +38,15 @@
     width: 350px;
     padding: 10px;
     text-align: center;
-    height: 50%
+  }
+
+  img>#milk {
+      height: auto;
+      width: 100%;
+  }
+
+  div {
+      display: block;
   }
 </style>
 
@@ -51,7 +59,7 @@
 
 <div id="curtain">
   <a href="/curtain">
-    <h2 class="subtitle">m system curtain track</h2>
+    <h2 class="subtitle">M-System Curtain Track</h2>
     <img src="curtain.jpg" alt="Picture of the m system curtain track" />
     <p>$</p>
   </a>
