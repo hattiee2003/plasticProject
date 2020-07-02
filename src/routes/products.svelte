@@ -50,9 +50,10 @@ img {
     width: 350px;
     padding: 10px;
     text-align: center;
-    height: 50%
-  }*/
-
+ 
+  div {
+      display: block;
+  }
 
   div {
       display: block;
@@ -92,6 +93,8 @@ img {
 </div>
 
 <!--<div id="curtain">
+
+<div id="curtain">
   <a href="/curtain">
     <h2 class="subtitle">M-System Curtain Track</h2>
     <img src="curtain.jpg" alt="Picture of the m system curtain track" />
