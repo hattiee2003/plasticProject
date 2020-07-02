@@ -48,6 +48,8 @@
   div {
       display: block;
   }
+
+
 </style>
 
 <h1 class="title">My Products</h1>
