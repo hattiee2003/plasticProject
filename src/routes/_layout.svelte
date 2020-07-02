@@ -10,17 +10,9 @@ footer {
     color: white;
     padding: 10px;  
 }
-header{
-    background-color:#14213D;
-    color: white;
-    padding: 10px;
-    font-size: 35px;
-}
+
 </style>
 
-<header>
-    <h1>UnitC</h1>
-</header>
 
 <Nav {segment}/>
 
