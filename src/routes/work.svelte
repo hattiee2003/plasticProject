@@ -2,6 +2,9 @@
 </script>
 
 <style>
+h1 {
+    text-align: center;
+  }
 </style>
 
 <h1 class="title">My Work</h1>

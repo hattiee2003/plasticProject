@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <style>
   h1 {
     text-align: center;
@@ -16,6 +12,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 200px;
+    border-radius: 5px;
+  }
+
+  img:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.384),
+      0 17px 50px 0 rgba(0, 0, 0, 0.384);
+    transition-duration: 0.4s;
   }
 
   /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -31,89 +35,44 @@ img {
   clear: both;
   display: table;
 }
-  /*#curtain {
-    border-style: solid;
-    width: 350px;
-    padding: 10px;
-    text-align: center;
-  }
+  
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
 
-  #shakle {
-    border-style: solid;
-    width: 350px;
-    padding: 10px;
-    text-align: center;
-  }
-
-  #milk {
-      border-style: solid;
-    width: 350px;
-    padding: 10px;
-    text-align: center;
- 
-  div {
-      display: block;
-  }
-
-  div {
-      display: block;
-  }
-
-
+p{
+  text-align: center;
+}
 </style>
 
 <h1 class="title">My Products</h1>
 <br />
 <h2 class="subtitle">
-  Here are some products which I have made myself. To purchase some of them
-  contact me using one of my contacs below.
+  Here are some products I have made myself. To purchase, contact me using contacts below.
 </h2>
 
 <div class="row">
   <div class="column">
     <a href="/curtain">
-    <h2 class="subtitle">m system curtain track</h2>
-    <img src="curtain.jpg" alt="m system curtain track" style="width:100%">
+    <img src="curtain.jpg" alt="m system curtain track">
+    <h2 class="subtitle">M-System Curtain Track</h2>
     <p>$</p>
   </div>
 
   <div class="column">
     <a href="/shakle">
+    <img src="dShakle.jpg" alt="D shakle">
     <h2 class="subtitle">D Shakle</h2>
-    <img src="dShakle.jpg" alt="D shakle" style="width:100%">
     <p>$</p>
   </div>
 
   <div class="column">
     <a href="/milk">
-    <h2 class="subtitle">Raw milk chilly bin</h2>
-    <img src="milk.jpg" alt="raw milk chilly bin" style="width:100%">
+    <img src="milk.jpg" alt="raw milk chilly bin">
+    <h2 class="subtitle">Raw Milk Chilly Bin</h2>
     <p>$</p>
   </div>
 </div>
 
-<!--<div id="curtain">
 
-<div id="curtain">
-  <a href="/curtain">
-    <h2 class="subtitle">M-System Curtain Track</h2>
-    <img src="curtain.jpg" alt="Picture of the m system curtain track" />
-    <p>$</p>
-  </a>
-</div>
-<br />
-<div id="shakle">
-  <a href="/shakle">
-    <h2 class="subtitle">D Shakle</h2>
-    <img src="dShakle.jpg" alt="Picture of D shakle" />
-    <p>$</p>
-  </a>
-</div>
-<br>
-<div id="milk">
-    <a href="/milk">
-        <h2 class="subtitle">Raw milk chilly bin</h2>
-        <img src="milk.jpg" alt="picture of raw milk chilly bin">
-        <p>$</p>
-    </a>
-</div>-->
