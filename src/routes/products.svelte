@@ -62,8 +62,8 @@
 
   <div class="column">
     <a href="/shakle">
-      <img src="dShakle.jpg" alt="D shakle" />
-      <h2 class="subtitle">D Shakle</h2>
+      <img src="dShakle.jpg" alt="Dee shackle" />
+      <h2 class="subtitle">Dee Shackle</h2>
       <p>$</p>
     </a>
   </div>

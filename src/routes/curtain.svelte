@@ -9,6 +9,7 @@
   #back:hover {
     transition-duration: 0.4s;
     color: #fca311;
+    cursor: pointer;
   }
 
   img {
